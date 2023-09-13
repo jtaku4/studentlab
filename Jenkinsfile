@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('Continuous Download') 
 	{
-    git 'https://github.com/jtaku4/optclab.git'
+    git 'https://github.com/jtaku4/studentlab.git'
 	}
     stage('Continuous Build') 
 	{
